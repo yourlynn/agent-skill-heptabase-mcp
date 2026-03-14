@@ -13,15 +13,40 @@
 
 ---
 
+## 📁 專案結構
+
+```
+agent-skill-heptabase-mcp/
+├── README.md              # 專案說明
+├── LICENSE                # MIT
+├── skill/                 # Skill 核心（複製到 ~/.openclaw/skills/heptabase/）
+│   ├── SKILL.md
+│   ├── heptabase
+│   ├── requirements.txt
+│   └── scripts/
+│       ├── heptabase.py
+│       └── daemon.py
+└── reference/             # 參考文件
+    ├── API-SCHEMA.md      # Heptabase MCP API 完整 Schema
+    ├── DEVELOPMENT.md     # 開發筆記
+    ├── QUICK-REFERENCE.md # 速查表
+    └── TESTING.md         # 測試指南
+```
+
+---
+
 ## 🚀 快速開始
 
 ### 1. 安裝
 
-將此 skill 放入 OpenClaw skills 目錄：
+將 `skill/` 資料夾複製到 OpenClaw skills 目錄：
 
 ```bash
-cd ~/.openclaw/skills/
-git clone https://github.com/yourusername/heptabase-mcp-skill.git heptabase
+# 下載專案
+git clone https://github.com/yourlynn/agent-skill-heptabase-mcp.git
+
+# 複製 skill 資料夾到 OpenClaw
+cp -r agent-skill-heptabase-mcp/skill ~/.openclaw/skills/heptabase
 ```
 
 ### 2. 首次認證
