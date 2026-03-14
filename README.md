@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-一個讓 [OpenClaw](https://openclaw.ai) / [Claude Code](https://anthropic.com/claude/code) 可以操作 [Heptabase](https://heptabase.com) 的 CLI 工具。
+一個讓 [OpenClaw](https://openclaw.ai) / [Claude Code](https://code.claude.com/) 可以操作 [Heptabase](https://heptabase.com) 的 CLI 工具。
 
 透過 [Heptabase MCP Server](https://support.heptabase.com/en/articles/12679581-how-to-use-heptabase-mcp)，你的 AI Agent 可以：
 - 💾 儲存研究筆記到 Heptabase
